@@ -1,0 +1,40 @@
+[{
+    "id": 1,
+    "name": "Soilmates",
+    "description": "A two-sided marketplace for users to buy and sell plant clippings. Built using Ruby on Rails, this project was my first application using a backend database.",
+    "features": [],
+    "techStack": [
+        "Ruby",
+        "Rails",
+        "PostgreSQL"
+    ],
+    "link": "http://peaceful-wildwood-39632.herokuapp.com/",
+    "image": "soilmates.png"
+},
+{
+    "id": 2,
+    "name": "Activity App",
+    "description": "Built as part of a Hackathon, this activity application uses the Bored API to return an activity for the user to do, based on either some search parameters, or randomly returning an activity",
+    "features": [],
+    "techStack": [
+        "JavaScript",
+        "React",
+        "Netlify",
+        "Bored API"
+    ],
+    "link": "http://www.adrianas-activity-app.netlify.app",
+    "image": "activity-app.png"
+},
+{
+    "id": 3,
+    "name": "My Times",
+    "description": "My first ever web page! This was a steep learning curve using flex-box and Git because I was teaching myself through Codecademy modules. It was such a powerful learning experience and really solidified that I wanted to be a developer",
+    "features": [],
+    "techStack": [
+        "HTML",
+        "CSS"
+    ],
+    "link": "https://adrianaheesh.github.io/MyTimes/",
+    "image": "MyTimes-project.png"
+}
+]

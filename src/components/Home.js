@@ -1,13 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { Section, Hero } from '../styled/home'
+
 
 const Home = () => {
     return (
-        <div id="about-hero">
-        <h2>Hey there!</h2>
-        <h3>Welcome to my portfolio.</h3>
-        <img src="waving-graphic.png" alt="illustration of waving hand" />
-      </div>
-  
+        <Section>
+            <img src="waving-graphic.png" alt="graphic of waving hand"/>
+            <Hero>
+                <h1>Adriana Heesh</h1>
+                <p>Junior front-end developer.</p>
+                <p><Link to='/projects'>See projects >></Link></p>
+            </Hero>
+        </Section>
     )
 }
 

@@ -1,0 +1,47 @@
+/* body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fafafa;
+}
+
+h1, h2 {
+    font-family: ivymode, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}    
+
+h3, h4, h5, h6, p, a {
+    font-family: ivymode, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}     */
+
+/* nav {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3b3b3b;
+    padding: 20px;
+  }
+  
+nav a:hover {
+    background: #f1c5b6;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+}
