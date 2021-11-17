@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const StyledDiv = styled.div`
     margin: 0 auto;
     text-align: center;
+    width: 80%;
     @media(min-width: 1024px) {
         width: 30%;
         padding: 15px;
@@ -17,6 +18,7 @@ export const StyledForm = styled.form`
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 10px;
     & input {
         width: 100%;
         font-family: 'Poppins', sans-serif;

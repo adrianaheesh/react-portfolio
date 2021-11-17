@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Nav } from '../styled/navigation'
+import { Nav, UnorderedList } from '../styled/navigation'
 
 const Navigation = () => {
     return (
         <Nav>
-            <ul>
+            <UnorderedList>
                 <li>
                     <Link to="/">Home</Link>
                 </li>
@@ -18,7 +18,7 @@ const Navigation = () => {
                 <li>
                     <Link to="/contact">Contact</Link>
                 </li>
-            </ul>
+            </UnorderedList>
         </Nav>
     )
 }

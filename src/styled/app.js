@@ -6,6 +6,7 @@ export const Body = styled.body`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
     & h1, h2 {
         font-family: ivymode, sans-serif;
         font-weight: 600;
@@ -28,5 +29,4 @@ export const Body = styled.body`
     & a:hover, a:focus {
         color: #f1c5b6;
     }
-
 `

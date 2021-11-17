@@ -19,11 +19,13 @@ const Projects = () => {
     return (
         <>
             {myProjects.map((project) => {
-                return <Card key={project.id} backgroundColour={project.id}>
+                return <Card key={project.id} id={project.id}>
                     <h3>{project.name}</h3>
                     <a href={project.link} target="_blank" rel="noreferrer"><img src={project.image} alt={`${project.name} website`}/></a>
-                    <p>{project.description}</p>
-                    <p><strong>Tech stack:</strong> {project.techStack.join(', ')}</p>
+                    <div>
+                        <p>{project.description}</p>
+                        <p><strong>Tech stack:</strong> {project.techStack.join(', ')}</p>
+                    </div>
                 </Card>
             })}
         </>

@@ -1,12 +1,14 @@
-[{
+[
+    {
     "id": 1,
     "name": "Soilmates",
     "description": "A two-sided marketplace for users to buy and sell plant clippings. Built using Ruby on Rails, this project was my first application using a backend database.",
-    "features": [],
     "techStack": [
         "Ruby",
-        "Rails",
-        "PostgreSQL"
+        "Ruby on Rails",
+        "PostgreSQL",
+        "Bootstrap",
+        "Heroku"
     ],
     "link": "http://peaceful-wildwood-39632.herokuapp.com/",
     "image": "soilmates.png"
@@ -14,8 +16,7 @@
 {
     "id": 2,
     "name": "Activity App",
-    "description": "Built as part of a Hackathon, this activity application uses the Bored API to return an activity for the user to do, based on either some search parameters, or randomly returning an activity",
-    "features": [],
+    "description": "Built as part of a Hackathon, this activity application uses the Bored API to return an activity for the user to do, based on either some search parameters, or randomly returning an activity.",
     "techStack": [
         "JavaScript",
         "React",
@@ -27,14 +28,35 @@
 },
 {
     "id": 3,
+    "name": "Trivia Generator",
+    "description": "An application that generates a list of trivia questions based on the amount of questions, category and difficulty that the user selects. Trivia Master was created by myself and my peers at Coder Academy during a hackathon. The parameters included: use only vanilla JavaScript and make use of an API. This application was my first exposure to working with Git collaboratively, managing pull requests and merge conflicts was tricky at first, but so important and definitely a highlight of the project.",
+    "techStack": [
+        "JavaScript",
+        "Trivia API",
+        "Bootstrap"
+    ],
+    "link": "https://natalielouise91.github.io/Hackathon1/",
+    "image": "trivia-master.png"
+},
+{
+    "id": 4,
     "name": "My Times",
-    "description": "My first ever web page! This was a steep learning curve using flex-box and Git because I was teaching myself through Codecademy modules. It was such a powerful learning experience and really solidified that I wanted to be a developer",
-    "features": [],
+    "description": "My first ever web page! This was a steep learning curve using flex-box and Git because I was teaching myself through Codecademy modules. It was such a powerful learning experience and really solidified that I wanted to be a developer.",
     "techStack": [
         "HTML",
         "CSS"
     ],
     "link": "https://adrianaheesh.github.io/MyTimes/",
     "image": "MyTimes-project.png"
+},
+{
+    "id": 5,
+    "name": "Book Bosomed",
+    "description": "Book-Bosomed (which means to always carry a book on one's person), is designed to solve the problem of which book to dive into next for a book club each month. The user of the app can be allocated a book from the Google Books API by either searching the title or author, or selecting 'random' and having the app generate a book for them. If the user selects random, the app while randomly output a keyword to search based on a list of common genres or topics. This is a terminal app that runs locally, so I have linked to my GitHub repository.",
+    "techStack": [
+        "Ruby"
+    ],
+    "link": "https://github.com/adrianaheesh/T1A3-bookbosomed",
+    "image": "book-bosomed.png"
 }
 ]

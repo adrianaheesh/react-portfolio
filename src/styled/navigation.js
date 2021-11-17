@@ -21,17 +21,16 @@ export const Nav = styled.nav`
     }
 `
 
+export const UnorderedList = styled.ul`
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+    }
+`
 
-// ul {
-//     list-style-type: none;
-//     margin: 0;
-//     padding: 0;
-// }
-
-// li {
-//     float: left;
-// }
-
-// li a {
-//     display: block;
-// }

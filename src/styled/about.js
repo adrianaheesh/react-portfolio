@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
+// whole page container
 export const AboutPageContainer = styled.div`
-    text-align: justify;
+    text-align: center;
     max-width: 100%;
     padding: 10px;
     & img {
@@ -12,6 +13,7 @@ export const AboutPageContainer = styled.div`
     }
 `
 
+// container with img and p text
 export const AboutSection = styled.div`
     display: flex;
     flex-direction: column;
@@ -28,6 +30,7 @@ export const AboutSection = styled.div`
     }
 `
 
+// container with skill icons
 export const SkillsSection = styled.div`
     text-align: center;
     & i {
