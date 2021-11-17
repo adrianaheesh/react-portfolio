@@ -9,10 +9,10 @@ const About = () => {
                 <h2>Welcome!</h2>
                 <div>
                     <img src="adriana-profile-pic.jpg" alt="adriana"/>
-                    <p>Adriana's skills in graphic design, communications and user experience stem from her previous work experience in eCommerce and digital marketing, as well as her Marketing degree. She thoroughly enjoys working on front-end projects to utilise these skills. Working on group projects has been a highlight of her studies as she loves the opportunity to learn from and teach others - something she looks forward to continuing throughout her career in tech.
+                    <p>My skills in graphic design, communications and user experience stem from my previous experience in eCommerce and digital marketing, as well as my Marketing degree. I thoroughly enjoy working on front-end applications to utilise these skills. Working on group projects has been a highlight of my studies as I love the opportunity to learn from and teach others - something I look forward to continuing throughout my career in tech.
                     <br/>
                     <br/>
-                    Adriana spends her down-time with her family, including both fur babies and non-fur baby (and a large collection of plant babies). She loves to read with a coffee in hand when she's lucky enough to get a moment to herself.
+                    Down-time favourites include quality time with my family, and reading with a coffee in hand.
                     </p>
                 </div>
             </AboutSection>
