@@ -4,6 +4,8 @@ export const StyledDiv = styled.div`
     margin: 0 auto;
     text-align: center;
     width: 80%;
+    box-sizing: border-box;
+
     @media(min-width: 1024px) {
         width: 800px;
         padding: 15px;

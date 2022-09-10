@@ -8,15 +8,15 @@ import { Body } from '../styled/app'
 
 const App = () => {
   return (
-    <Body>
-
+    <>
       <Home />
-      <Projects />
-      <About />
-      <Contact />
-
-      <Footer />
-    </Body>
+      <Body>
+        <Projects />
+        <About />
+        <Contact />
+        <Footer />
+      </Body>
+    </>
   )
 }
 
