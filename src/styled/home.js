@@ -1,9 +1,10 @@
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 
 export const Section = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100%;
     & a, a:visited {
         color: black;
         text-decoration: none;
@@ -18,43 +19,35 @@ export const Section = styled.section`
             align-self: center;
         }
     }
-    @media(min-width: 1024px) {
-        margin-top: 10px;
-        max-width: 70%;
-        flex-direction: row;
-        justify-content: flex-end;
-        gap: 20px;
-        background-color: #f7ebe8;
-        & img {
-            max-width: 50%;
-            order: 2;
-        }
-    }
-    `
 
-const blinkCaret = keyframes`
-    from,
-    to {
-        border-color: transparent;
+
+    @media(min-width: 1024px) {
+    width: 700px;
+    min-height: 700px;
+    background: #f7ebe8 url('waving-graphic.png') center bottom no-repeat;
+    background-size: contain;
+    justify-content: flex-end;
+    
+    img {
+        display: none;
     }
-    50% {
-        border-color: #3b3b3b;
-    }
+}
 `
 
 export const Hero = styled.div`
-    text-align: right;
     align-self: center;
     margin-top: 15px;
     text-align: center;
-    & h1 {
-        animation: ${blinkCaret} 1.2s infinite;
-        border-right: solid 2px #3b3b3b;
-        font-size: 2rem;
-        margin: 0;
-    }
     @media(min-width: 1024px) {
-        width: 50%;
-        text-align: right;
-    }
-`
+        margin-top: 0;
+        h1 { 
+            font-size: 2.5rem;
+            margin: 10px 0;
+        }
+        p {
+            margin: 4px 0;
+        }
+        margin-bottom: 10%;
+    }`
+
+

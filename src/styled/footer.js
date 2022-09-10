@@ -18,4 +18,5 @@ export const StyledFooter = styled.div`
     justify-content: center;
     align-items: center;
     align-self: flex-end;
+    margin-top: auto;
 `
