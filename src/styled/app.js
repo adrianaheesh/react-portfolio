@@ -21,17 +21,6 @@ export const Body = styled.div`
         font-size: 2rem;
         text-align: center;
     }
-    // h1:after {
-    //     content: "";
-    //     display: block;
-    //     width: 100%;
-    //     height: 15px;
-    //     background: #fae2d9;
-    //     position: relative;
-    //     top: -15px;
-    //     z-index: -1;
-    //     opacity: 0.5;
-    // }
     & h3, h4, h5, h6 { 
         font-family: ivymode, sans-serif;
         font-weight: 400;
