@@ -41,6 +41,7 @@ const Contact = () => {
 
     return (
         <StyledDiv>
+            <h1>Contact</h1>
             <p>Let's chat.</p>
             <StyledForm onSubmit={formSubmit}>
                 <input 

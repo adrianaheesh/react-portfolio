@@ -3,13 +3,15 @@ import styled from 'styled-components'
 // whole page container
 export const AboutPageContainer = styled.div`
     text-align: center;
-    max-width: 100%;
+    width: 100%;
+    max-width: 800px;
     padding: 10px;
     & img {
         width: 300px;
         height: 300px;
         object-fit: cover;
         object-position: 80%;
+        border-radius: 50%;
     }
 `
 
@@ -23,9 +25,14 @@ export const AboutSection = styled.div`
     padding: 10px;
     & div {
         @media(min-width: 1024px) {
-            display: grid;
-            grid-template-columns: 1fr 3fr;
-            column-gap: 15px;
+            img {
+                float: left;
+                shape-outside: circle(50%);
+                margin-right: 15px;
+            }
+            p {
+                text-align: justify;
+            }
         }
     }
 `

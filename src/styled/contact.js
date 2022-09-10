@@ -5,7 +5,7 @@ export const StyledDiv = styled.div`
     text-align: center;
     width: 80%;
     @media(min-width: 1024px) {
-        width: 30%;
+        width: 800px;
         padding: 15px;
     }
 `
@@ -42,6 +42,9 @@ export const StyledForm = styled.form`
     }
     & input:focus, textarea:focus {
         outline: none;
+    }
+    @media(min-width: 1024px) {
+        width: 40%;
     }
 `
 

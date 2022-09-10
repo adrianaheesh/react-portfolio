@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { Card } from '../styled/projects'
+import { Card, PageContainer } from '../styled/projects'
 
 const Projects = () => {
     const [myProjects, setMyProjects] = useState([])
@@ -9,7 +9,7 @@ const Projects = () => {
         fetch('data.json')
         .then(response => response.json())
         .then(data => setMyProjects(data))
-        .catch(error => console.log(error))
+        .catch(console.error)
     }
 
     useEffect(()=>{
@@ -17,7 +17,8 @@ const Projects = () => {
     }, [])
 
     return (
-        <>
+        <PageContainer>
+            <h1>Projects</h1>
             {myProjects.map((project) => {
                 return <Card key={project.id} id={project.id}>
                     <h3>{project.name}</h3>
@@ -28,7 +29,7 @@ const Projects = () => {
                     </div>
                 </Card>
             })}
-        </>
+        </PageContainer>
     )
 }
 
