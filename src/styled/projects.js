@@ -6,21 +6,18 @@ export const PageContainer = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
+    }    
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
 `;
 
 export const Card = styled.div`
-    width: 100%;
+    box-sizing: border-box;
     ${props => (props.id % 2 === 0) ?
-        `background-color: rgb(250, 226, 217, 0.5); 
-        img {
-            border: solid 5px #ffffff;
-        }`
+        `background-color: rgb(250, 226, 217, 0.5);`
         :
-        `background-color: #fafafa; 
-        img {
-            border: solid 5px rgb(250, 226, 217, 0.5);
-        }`
+        `background-color: #fafafa;`
     };
 
     padding: 0 20px;
@@ -58,6 +55,16 @@ export const Card = styled.div`
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 0.5fr;
         column-gap: 10px;
+        ${props => (props.id % 2 === 0) ?
+            `img {
+                border: solid 5px #ffffff;
+            }`
+            :
+            `img {
+                border: solid 5px rgb(250, 226, 217, 0.5);
+            }`
+        };
+    
         h3 {
             grid-column: 1 / span 3;
             margin-bottom: 10px;

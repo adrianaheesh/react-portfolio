@@ -3,8 +3,8 @@ import styled from 'styled-components'
 // whole page container
 export const AboutPageContainer = styled.div`
     text-align: center;
+    box-sizing: border-box;
     width: 100%;
-    max-width: 800px;
     padding: 10px;
     & img {
         width: 300px;
@@ -23,12 +23,14 @@ export const AboutSection = styled.div`
     align-items: center;
     flex-wrap: wrap;
     padding: 10px;
+    box-sizing: border-box;
+
     & div {
         @media(min-width: 1024px) {
             img {
                 float: left;
                 shape-outside: circle(50%);
-                margin-right: 15px;
+                margin-right: 25px;
             }
             p {
                 text-align: justify;

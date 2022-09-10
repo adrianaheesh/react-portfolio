@@ -7,11 +7,12 @@ const About = () => {
             <AboutSection>
                 <h1>Welcome!</h1>
                 <div>
-                    <img src="adriana-profile-pic-1.png" alt="adriana"/>
-                    <p>My skills in graphic design, communications and user experience stem from my previous experience in eCommerce and digital marketing, as well as my Marketing degree. I thoroughly enjoy working on front-end applications to utilise these skills. Working on group projects has been a highlight of my studies as I love the opportunity to learn from and teach others - something I look forward to continuing throughout my career in tech.
-                    <br/>
-                    <br/>
-                    Down-time favourites include quality time with my family, and reading with a coffee in hand.
+                    <img src="adriana-profile-pic-1.png" alt="adriana" />
+                    <p>
+                        With a degree in marketing, a diploma in Information Technology and experience in developing full-stack web applications, managing e-commerce and social media, I have skills in programming, graphic design, user experience and subsequently have a passion for communicative and collaborative front-end projects. I seek work that challenges my skill and gets me thinking in new ways with a sense of mentorship and camaraderie with my colleagues. I love the opportunity to learn from and teach others - something I look forward to continuing throughout my career in tech.
+                        <br />
+                        <br />
+                        Down-time favourites include quality time with my family, and reading with a coffee in hand.
                     </p>
                 </div>
             </AboutSection>
@@ -24,10 +25,7 @@ const About = () => {
                     <i class="devicon-css3-plain-wordmark"></i>
                     <i class="devicon-ruby-plain-wordmark"></i>
                     <i class="devicon-rails-plain-wordmark"></i>
-                    <i class="devicon-postgresql-plain-wordmark"></i>
-                    <i class="devicon-photoshop-plain"></i>
-                    <i class="devicon-illustrator-plain"></i>
-                    <i class="devicon-xd-plain"></i>
+                    <i class="devicon-figma-plain"></i>
                 </StyledIcons>
                 <p>See Adriana's <a href="AdrianaHeesh-Resume.pdf" target="_blank">resume</a></p>
             </SkillsSection>
